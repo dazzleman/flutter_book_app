@@ -23,7 +23,7 @@ class _BookPageState extends State<BookPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter Demo Home Page'),
+        title: Text('Библиотека книг'),
       ),
       body: StreamBuilder<List<Book>>(
         stream: bloc.bookList,
